@@ -10,26 +10,25 @@
 
   <!-- Control group for the number of echo layers -->
   <div class="control-group">
-    <div class="display-number">2</div>
+    <div id="echoDisplay" class="display-number">2</div>
     <div class="buttons">
-      <button>+</button>
-      <button>-</button>
+      <button id="echoPlus">+</button>
+      <button id="echoMinus">-</button>
     </div>
   </div>
 
   <!-- Control group for the delay time -->
   <div class="control-group">
-    <div class="display-number">550ms</div>
+    <div id="delayDisplay" class="display-number">550ms</div>
     <div class="buttons">
-      <button>+</button>
-      <button>-</button>
+      <button id="delayPlus">+</button>
+      <button id="delayMinus">-</button>
     </div>
   </div>
 
-  <!-- Start button -->
-  <button class="start-btn">Start</button>
+  <!-- Start/Stop button -->
+  <button id="toggleButton" class="start-btn">Start</button>
 
-  <!-- Link to the JS file (empty for now) -->
   <script src="app.js"></script>
 </body>
 </html>
