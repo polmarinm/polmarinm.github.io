@@ -1,6 +1,6 @@
 // Initialize state variables
-let echoLayers = 2;
-let delayTime = 550; // in ms
+let echoLayers = 1;
+let delayTime = 500; // in ms
 
 const minEchoLayers = 1;
 const maxEchoLayers = 10;
