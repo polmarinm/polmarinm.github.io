@@ -14,8 +14,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Full viewport height */
-  margin: 0;     /* Remove default browser margins */
+  height: 100vh;
+  margin: 0;
 }
 
 h1 {
@@ -37,7 +37,7 @@ h1 {
 
 .buttons {
   display: flex;
-  gap: 1rem
+  gap: 1rem;
 }
 
 button {
@@ -54,9 +54,12 @@ button:hover {
   background-color: #444;
 }
 
+/* Enlarged Start/Stop button */
 .start-btn {
   background-color: #555;
   margin-top: 1rem;
+  font-size: 2rem;
+  padding: 1rem 2rem;
 }
 
 .start-btn:hover {
