@@ -1,0 +1,64 @@
+/* Basic reset and styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* Dark background, centered content */
+  background-color: #000;
+  color: #ccc;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0;     /* Remove default browser margins */
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 2rem;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.display-number {
+  font-size: 2em;
+  margin-bottom: 0.5rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem
+}
+
+button {
+  background-color: #333;
+  border: none;
+  color: #ccc;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+.start-btn {
+  background-color: #555;
+  margin-top: 1rem;
+}
+
+.start-btn:hover {
+  background-color: #666;
+}
